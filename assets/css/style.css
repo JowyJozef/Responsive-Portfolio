@@ -1,0 +1,203 @@
+/* Base styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /*  putting display: flex; in body makes all items children */
+    /*  flex direction set as column keeps page vertically aligned */
+    /*  min-height: 100vh is displaying this at 100% of the viewport */
+  }
+  
+  h1 {
+    color: #fff;
+    background-color: #1f8390;
+    padding: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  
+  section {
+    background-color: red;
+    background-image: url('../img/backgroundWallpaper1.jpeg');
+    background-repeat: repeat;
+    flex: 1;
+    /* flex: 1; pushs the main body to fill the entire viewport, and pushes the footer to the bottom */
+  }
+  
+  .portfolio,
+  .about,
+  .contact {
+    width: 60%;
+    background-color: rgb(199, 237, 251);
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  
+  .footer {
+    color: #fff;
+    background-color: #777;
+    text-align: center;
+    padding: 15px 0;
+    border-top: solid #1f8390 5px;
+  }
+  
+  /* Flexbox header */
+  
+  .header {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #fff;
+    border-bottom: dashed #777 1px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu {
+    display: inline-flex;
+  }
+  
+  .menu li {
+    padding-right: 15px;
+    padding-top: 20px;
+    margin-top: 15px;
+  }
+  
+  /* Link styles */
+  
+  a:link {
+    text-decoration: none;
+    color: #777;
+  }
+  
+  a:hover {
+    color: #1f8390;
+  }
+  
+  a:focus {
+    color: #1f8390;
+  }
+  
+  a:visited {
+    color: #777;
+  }
+  
+  /* About section  */
+  
+  .about h2 {
+    color: #1f8390;
+    font-size: 2em;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 25px;
+    border-bottom: solid #777 1px;
+  }
+  
+  .about img {
+    margin: 25px;
+    width: 15%;
+    display: flex;
+  }
+  
+  .about p {
+    margin: 25px;
+  }
+  
+  /*  Contact section */
+  
+  .contact h2 {
+    color: #1f8390;
+    font-size: 2em;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 25px;
+    border-bottom: solid #777 1px;
+  }
+  
+  fieldset {
+    margin: 25px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  textarea {
+    min-width: 200px;
+    min-height: 200px;
+  }
+  
+  button {
+    color: #fff;
+    background-color: #1f8390;
+    padding: 10px 30px;
+  }
+  
+  /* Portfolio section */
+  
+  .portfolio h2 {
+    color: #1f8390;
+    font-size: 2em;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 25px;
+    border-bottom: solid #777 1px;
+  }
+  
+  .portfolio div {
+    /* padding: 100px; */
+    border: solid #777 1px;
+    margin: 6.5px;
+    display: inline-block;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  }
+  
+  .portfolio p {
+    background-color: #1f8390;
+    padding: 10px 30px;
+    display: inline-flex;
+    margin-top: 40%;
+  }
+  
+  .item-1 {
+    background-image: url('../img/BasicCalculator.png');
+    background-size: cover;
+  }
+  
+  .item-2 {
+    background-image: url('../img/SurveyForm.png');
+    background-size: cover;
+  }
+  
+  .item-3 {
+    background-image: url('../img/LandingPage.png');
+    background-size: cover;
+  }
+  
+  .item-4 {
+    background-image: url('../img/TributePage.png');
+    background-size: cover;
+  }
+  
+  .item-5 {
+    background-image: url('../img/TechnicalDocumentationPage.png');
+    background-size: cover;
+  }
