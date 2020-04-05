@@ -42,7 +42,6 @@
     padding-bottom: 50px;
   }
   
-  
   .footer {
     color: #fff;
     background-color: #777;
@@ -180,26 +179,61 @@
   .item-1 {
     background-image: url('../img/BasicCalculator.png');
     background-size: cover;
+    background-position: center;
   }
   
   .item-2 {
     background-image: url('../img/SurveyForm.png');
     background-size: cover;
+    background-position: center;
   }
   
   .item-3 {
     background-image: url('../img/LandingPage.png');
     background-size: cover;
+    background-position: center;
   }
   
   .item-4 {
     background-image: url('../img/TributePage.png');
     background-size: cover;
+    background-position: center;
   }
   
   .item-5 {
     background-image: url('../img/TechnicalDocumentationPage.png');
     background-size: cover;
+    background-position: center;
+  }
+
+  .item-6 {
+    background-image: url('../img/CrystalsCollector.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .item-7 {
+    background-image: url('../img/DragonBallZTrivia.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .item-8 {
+    background-image: url('../img/GifTastic.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .item-9 {
+    background-image: url('../img/TrainSchedule.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .item-10 {
+    background-image: url('../img/Pandemic.png');
+    background-size: cover;
+    background-position: center;
   }
 
   /* ***MEDIA TAGS*** */
@@ -233,7 +267,6 @@ img {
   height: auto;
 }  
 }
-
 
 @media only screen and (max-width: 640px) {
 
